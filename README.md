@@ -25,6 +25,8 @@ where:
 
 ## Implementation Steps
 
+The Python code is in the file OLS.ipynb and the R code is in the file OLS.rmd.
+
 ### 1- Import Data:
 
 . Data is imported from the rls_data.csv file and saved as an array.
