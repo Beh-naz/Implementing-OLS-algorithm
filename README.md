@@ -27,7 +27,7 @@ where:
 
 ### 1- Import Data:
 
-. Data is imported from a provided CSV file and saved as an array.
+. Data is imported from the rls_data.csv file and saved as an array.
 
 ### 2- Matrix Construction:
 
