@@ -1,0 +1,12 @@
+df <- read.csv("rls_data.csv")
+class(df)
+matrix_x <- matrix(NA, nrow=10000, ncol=6)
+matrix_y <- matrix(NA, nrow=10000, ncol=1)
+for (n in 1:10000)
+  matrix_y[n,] <- c(df[n,3])
+
+for (n in 1:10000)
+  matrix_x[n,] <- c((df[n,1])**2, (df[n,2])**2, (df[n,1]*df[n,2]),df[n,1],df[n,2],1)
+
+w <- lsfit(matrix_x, matrix_y, intercept = F)
+print(w$coefficients)
