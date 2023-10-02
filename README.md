@@ -1,7 +1,7 @@
 # Implementing-OLS-algorithm
 
 ## Overview
-This repository contains an implementation of Ordinary Least Squares (OLS) to fit a 2D surface to a dataset in R3 using both custom Python implementation and the lsfit function in R. The main goal is to approximate the quadratic surface of the form:
+This repository contains an implementation of Ordinary Least Squares (OLS) to fit a 2D surface to a dataset in $\mathbb{R}^3$ using both custom Python implementation and the lsfit function in R. The main goal is to approximate the quadratic surface of the form:
 
 $z = g ( x , y ) = a_1 x^2 + a_2 y^2 + a_3 xy + a_4 x + a_5 y + a_6$
 
