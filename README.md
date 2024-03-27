@@ -29,13 +29,13 @@ The Python code is in the file OLS.ipynb and the R code is in the file OLS.rmd.
 
 ### 1- Import Data:
 
-. Data is imported from the rls_data.csv file and saved as an array.
+Data is imported from the [rls_data.csv](https://github.com/Beh-naz/Implementing-OLS-algorithm/blob/main/rls_data.csv) file and saved as an array.
 
 ### 2- Matrix Construction:
 
-. Construct matrix $X$ as a $ 10000 \times 6 $ matrix. Each row represents one pair $(x, y)$ and is of the form $[x^2, y^2, xy, x, y, 1]$.
+* Construct matrix $X$ as a $ 10000 \times 6 $ matrix. Each row represents one pair $(x, y)$ and is of the form $[x^2, y^2, xy, x, y, 1]$.
 
-. Construct vector $ Y $ as a $ 10000 \times 1 $ vector with entries sourced from the third column $(Z)$ of the imported data.
+* Construct vector $ Y $ as a $ 10000 \times 1 $ vector with entries sourced from the third column $(Z)$ of the imported data.
 
 ### 3- Matrix Multiplication and Inversion:
 
